@@ -1,4 +1,4 @@
-/* eslint-env node */
+```
 const wpConfig = require('./webpack.config.js');
 const config = require('config');
 const path = require('path');
@@ -41,3 +41,4 @@ wpConfig.devServer = {
 wpConfig.mode = 'development'
 
 module.exports = wpConfig;
+```
