@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T03:21:47.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="-SQMg48etfCdyGvk2fyu" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T04:05:22.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="DfqIxTFzKIfAxyxTIdS1" version="21.8.2" type="github">
   <diagram name="Page-1" id="PmTRdXq-IHFucuTStrHl">
-    <mxGraphModel dx="2364" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2604" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,7 +243,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXstX9Qdc0MzjJcm4sS2-88" value="GACDW&lt;br&gt;ETL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kXstX9Qdc0MzjJcm4sS2-88" value="HWSW&lt;br&gt;ETL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kXstX9Qdc0MzjJcm4sS2-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kXstX9Qdc0MzjJcm4sS2-88" target="kXstX9Qdc0MzjJcm4sS2-3">
@@ -254,8 +254,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kXstX9Qdc0MzjJcm4sS2-91" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="310" width="60" height="30" as="geometry" />
+        <mxCell id="kXstX9Qdc0MzjJcm4sS2-97" value="GACDW&lt;br&gt;ETL&lt;br&gt;&lt;br&gt;Updates MW_BASE_EXP_GACDW&lt;br&gt;DWH_EXPORT = N&lt;br&gt;DWH_EXPORT_TS = current timestamp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="150" width="185" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kXstX9Qdc0MzjJcm4sS2-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.03;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kXstX9Qdc0MzjJcm4sS2-97" target="kXstX9Qdc0MzjJcm4sS2-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
